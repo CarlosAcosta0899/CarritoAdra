@@ -1,0 +1,34 @@
+
+.slideshow{    
+  background-color:rgb(19, 77, 59);      
+  height: 450px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.slideshow_item{
+    padding: 150px 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 380px;
+    margin: 30px;
+    background-color: rgb(38,123,97);
+    border: none;
+    border: solid 1px rgb(97, 97, 97);
+    color: black; 
+}
+.btn{
+    height: 45px;
+    width: 120px;
+   font-size: 13px;
+   margin-left: 18px;
+   position: absolute; top: 80%;
+}
+img{
+    width: 150px;
+    height: auto;
+}
+.slick-prev::before, .slick-next::before{
+    color: black;
+}
